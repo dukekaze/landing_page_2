@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f7fa;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 82px;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.header-hpc {
+  display: flex;
+  gap: 40.5px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.header-hpc a {
+  text-decoration: none;
+  color: #161c2d;
+}
+
+.shadepro {
+  color: #161c2d;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 25px;
+}
+
+.header-cart {
+  margin-right: 25px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 81px;
+}
+
+.hero-content {
+  width: 601px;
+  height: 202px;
+  border: 0px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #161c2d;
+}
+
+.hero-content p {
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  margin-top: 44px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 61px;
+}
+
+.info- {
+  display: flex;
+  border: 0px solid black;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 21px;
+  font-weight: 400;
+  color: #161c2d;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.info-container {
+  display: flex;
+  gap: 150px;
+}
+
+.info- h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  color: #161c2d;
+  margin-left: 25px;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  background-color: #ffffff;
+  width: 1110px;
+  height: 595px;
+  border-radius: 20px;
+  margin-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.input- {
+  width: 495px;
+  height: 78px;
+  border: 0px solid black;
+}
+
+.input-name {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  color: #161c2d;
+}
+
+.input-bar input {
+  width: 455px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #f4f7fa;
+  margin-top: 7px;
+}
+
+.input-m input {
+  width: 960px;
+}
+.input-bar input::placeholder {
+  font-size: 15px;
+  line-height: 26px;
+  color: #161c2d;
+  letter-spacing: -0.1px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 18px;
+}
+
+.button a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  color: #ffffff;
+}
+
+.button {
+  width: 213px;
+  height: 59px;
+  background-color: #473bf0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 532.5px;
+  margin-top: 230px;
+  background-color: #ffffff;
+}
+
+.foot-cont {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 91px;
+}
+
+.tags {
+  font-size: 15px;
+  font-weight: 400;
+  color: #161c2d;
+  line-height: 26px;
+}
+
+.foot-cont ul li {
+  list-style: none;
+  font-size: 17px;
+  color: #161c2d;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.footer-5 ul li {
+  color: #473bf0;
+  font-weight: 700;
+}
+
+#footercontact5 {
+  color: #161c2d;
+  font-weight: 400;
+}
+
+#footer1 {
+  color: #161c2d;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+#footer2 {
+  color: #161c2d;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+#footer3 {
+  color: #161c2d;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+#footer4 {
+  color: #161c2d;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.line {
+  border: 1px solid #e7e9ed;
+  width: 1950px;
+  height: 2px;
+  margin-left: 150px;
+  margin-top: 120px;
+}
+
+.copyright {
+  display: flex;
+}
+
+.copytext {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 150px;
+  margin-top: 32px;
+}
+
+.copyheart {
+  margin-left: 8px;
+  margin-top: 37px;
+}
+
+.copy-social {
+  display: flex;
+  margin-top: 37px;
+  width: 166px;
+  height: 19px;
+  border: 0px solid red;
+  justify-content: space-between;
+  margin-left: 1350px;
+}
